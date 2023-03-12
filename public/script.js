@@ -954,6 +954,7 @@ tailwind.config = {
         fontFamily: {
             po : ['poppins']
         }
+        
       }
     }
   }
