@@ -8,8 +8,8 @@
 </head>
 <body class="text-gray-600 poppins">
     
-    <div>
-        <div>
+    <div class="grid md:grid-cols-3">
+        <div class="md:col-span-1">
             <nav>
                 <div>
                     <h1 class="font-bold uppercase p-4 border-b border-gray-100">
@@ -36,15 +36,15 @@
             </nav>
         </div>
 
-        <main class="px-16 py-6 bg-gray-100">
+        <main class="px-16 py-6 bg-gray-100 md:col-span-2">
             <div class="flex justify-center md:justify-end  text-red-400">
-                <a href="#">Login</a>
-                <a href="#" class="ml-2">Sign Up</a>
+                <a href="#" class="btn border border-red-400">Login</a>
+                <a href="#" class=" btn border border-red-400 ml-2">Sign Up</a>
                 
             </div>
 
             <header>
-                <h2 class="text-gray-700 text-6xl font-semibold">Recipes</h2>
+                <h2 class="text-gray-700 text-6xl font-semibold py-4">Recipes</h2>
                 <p class="text-2xl font-semibold">Find the best recipes for your favorite dishes</p>
             </header>
 
@@ -61,6 +61,7 @@
                             
                         </div>
                         <div class="bg-red-400 text-gray-300 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2">
+                            <svg class="w-5 inline-block " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>
                             <span>25 mins</span>
                         </div>
                     </div>
@@ -94,7 +95,7 @@
                 </div>
 
                 <div class="flex justify-center">
-                    <div class="text-secondary-700">Load More</div>
+                    <div class="btn text-secondary-700">Load More</div>
                 </div>
             </div>
 
