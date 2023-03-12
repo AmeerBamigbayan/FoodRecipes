@@ -950,6 +950,9 @@ tailwind.config = {
       extend: {
         colors: {
           cu: '#da373d',
+        },
+        fontFamily: {
+            po : ['poppins']
         }
       }
     }
